@@ -1,0 +1,39 @@
+.mode {
+    background-color: rgb(0, 0, 0);
+    color: royalblue;
+}
+.mode-board {
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    background-color: gray;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.mode-board-night {
+    background-color: royalblue;
+}
+.mode-btn {
+    width: 17px;
+    height: 17px;
+    border: none;
+    border-radius: 100%;
+    transform: translateX(2px);
+    transition: 0.5s;
+}
+.btn-move {
+    transform: translateX(21px);
+}
+
+
+
+
+.night-box {
+    border: solid 1px #2d40c8 !important;
+    box-shadow: 0px 1px 7px 2px #2d40c8 !important;
+}
+.night-color {
+    text-shadow: 0px 1px 7px royalblue !important;
+}
