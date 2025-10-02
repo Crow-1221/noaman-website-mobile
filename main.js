@@ -7,7 +7,7 @@ let service1 = document.querySelector(".service-1")
 let service2 = document.querySelector(".service-2")
 let service3 = document.querySelector(".service-3")
 
-let contact = document.querySelector(".contact")
+let contact = document.querySelector(".contact .box-inner-contact")
 
 modeBoard.onclick =  () => {
     body.classList.toggle("mode")

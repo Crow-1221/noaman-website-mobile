@@ -29,7 +29,7 @@ body {
     font-weight: bold;
     border: solid 2px black;
     border-radius: 10px;
-    /* z-index: 10; */
+    z-index: 10;
 }
 .container-nav {
     display: flex;
@@ -86,8 +86,8 @@ body {
 input[type="search"] {
     background-color: inherit;
     color: inherit;
-    font-size: 2rem;
-    height: 4.5rem;
+    font-size: 1.4rem;
+    height: 2.5rem;
     outline: none;
     border: solid 0.1px black;
     border-radius: 10px;
@@ -153,21 +153,25 @@ body.designgraphy-page {
 .our-works-box {
     position: relative;
     top: 18rem;
-    width: 46rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
     padding: 1rem;
-    margin: 1rem;
+    margin: auto;
     border-radius: 20px;
 }
 
 .our-works-title {
     position: absolute;
     top: 9rem;
-    width: 46rem;
+    width: 100%;
     text-align: center;
     font-size: 4rem;
     font-weight: bold;
     padding: 1rem;
-    margin: 1rem;
+    margin: auto;
 }
 
 .our-works-box .part-one,
@@ -227,9 +231,7 @@ body.photography-page {
     align-items: center;
     flex-wrap: wrap;
     gap: 4rem;
-    position: absolute;
-    left: 0rem;
-    width: 46rem;
+    width: 100%;
 }
 
 .photography-page .our-works-box span {
@@ -256,26 +258,34 @@ body.contact-page {
 
 
 .contact {
-    background-color: black;
-    color: white;
+    background-color: inherit;
+    color: inherit;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: absolute;
     top: 10rem;
-    left: 1rem;
-    width: 46rem;
+    width: 100%;
     border-radius: 20px;
 }
-
-.img-contact {
-    height: 45rem;
+.box-inner-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;          
+    max-width: 50rem;    
+    overflow: hidden;    
+    margin: 0 auto;
+    box-shadow: 0px 1px 7px 2px;
+    transition: 0.5s;
 }
-
 .contact img {
-    width: 45rem;
-    height: 45rem;
-    border-radius: 20px 0 0 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0px;
+    display: block;
 }
 
 .info-contact div {
