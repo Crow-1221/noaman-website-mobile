@@ -26,6 +26,7 @@ body {
     font-weight: bold;
     border: solid 2px black;
     border-radius: 10px;
+    z-index: 10;
 }
 .container-nav {
     display: flex;
