@@ -20,7 +20,10 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
+    top: 0.1rem;
+    right: 0;
+    left: 0;
+    width: 99%;
     height: 7rem;
     padding: 0.5rem;
     margin: auto;
